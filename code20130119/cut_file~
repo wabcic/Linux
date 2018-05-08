@@ -1,0 +1,78 @@
+/*
+	for(z=0;z<5;z++)
+	{	
+           for(i=0;i<8;i++)
+           {
+            //  array[i]=fdev_rword(fd, 0x0904);
+                array[i]=i+z;
+	   }
+	//   if(!(array[0]||array[1]||array[2]||array[3]||array[4]||array[5]||array[6]||array[7]))
+            // {printf ("enter all 0\n");
+           //   return -1;}
+	 //  else { 
+	      for(i=0;i<8;i++)              
+              	printf("readDI=0x%4x\n",array[i]);
+
+	  //   for(i=0;i<8;i++) 
+	  //    {
+           //       uploadDI[k+28]=(char)array[i];
+	//	  uploadDI[k+29]=(char)(array[i] >> 8);
+	//	  printf("%4x ",uploadDI[k+28]);
+	//	  k += 2;
+        //         }
+                 
+
+           //     }
+	  printf("\n");
+	}
+
+
+
+        
+       
+
+
+
+
+
+
+
+
+
+        
+		
+	       if ( backflag == 0)
+		{
+		   	usleep(10000);
+			continue;
+		}		
+		else*/
+	//	
+       //       if(upDI()==0){
+             //  printf( "enter send sever\n");
+            //   send(sd,(unsigned char *)uploadDI,200,0);
+             //   }*/
+          
+            //   exit(1);
+		    /*printf("uploadDI=:\n");
+	             for(j=0;j<200;j++)
+                     {
+	                printf("%4x",uploadDI[j]);
+		        if(j%8==0)
+	                printf("\n");
+                     }
+                    printf("\n");*/
+	            // printf("ready to send!\n");
+                   /*  if((sendbytes=send(sd,(unsigned char *)uploadDI,200,0))==-1)
+	             {
+		 	perror("send");
+			close(sd);
+			exit(1);
+	      	     }
+	      	    else
+	      	    {	
+		 	printf("send is ok!\n");
+		 	close(sd);
+			break;
+	       	    }*/
+		           				
